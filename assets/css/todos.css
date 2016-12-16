@@ -1,5 +1,37 @@
 h1 {
   text-transform: uppercase;
+  background: #2980b9;
+  color: white;
+  padding: 10px 20px;
+  margin: 0;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+input[type="text"] {
+  width: 360px;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 5px 20px;
+  font-weight: 400;
+}
+
+li:nth-child(odd) {
+  background: white;
 }
 
 .done {
@@ -8,7 +40,12 @@ h1 {
 }
 
 #container {
-  border: 2px solid grey;
+  box-shadow: 0 0 3px rgba(0,0,0,.1);
   width: 360px;
-  margin: 0 auto;
+  margin: 100px auto;
+  background: #F7F7F7;
+}
+
+body {
+  font-family: Roboto;
 }
